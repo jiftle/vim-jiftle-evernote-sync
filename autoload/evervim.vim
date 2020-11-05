@@ -304,4 +304,25 @@ catch
 endtry
 
 
+// ------------------------ 接口 ------------------------
+function! ever#login() 
+endfunction
+
+// 笔记创建
+function! ever#note_create() 
+endfunction
+
+// 笔记同步
+function! ever#note_update() 
+endfunction
+
+// function! GitMdBlogServ_Start()
+//     redraw
+//     " -------- 调用同步工具 -----------
+//     execute "silent ! ". 'bash /root/.vim/plugged/vim-jiftle-gitmdblog/gitmdblog-serv.sh'
+// 
+//     " 清空控制台
+//     echo "GitMdBlogServer is started, URL: http://127.0.0.1:8001 .  ^_^" 
+// endfunction   
+
 " vim: sts=4 sw=4 fdm=marker
